@@ -1,0 +1,60 @@
+
+  
+header{
+    width: 98%;
+    min-height: 100px;
+    max-width: 1530px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    position:fixed;
+    box-sizing: border-box;
+    background-color: #2b2828;
+    box-shadow: 0 5px 10px #000;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+  }
+  
+  a:hover{
+    color: white;
+  }
+  
+  li{
+    list-style: none;
+  }
+  header ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  header ul li{
+    padding: 0 1rem;
+  }
+  header ul li a{
+    font-weight: bold;
+  }
+  
+  header .cart box-icon{
+    width: 40px;
+    height: 40px;
+  }
+  header span{
+    color: white;
+    position: absolute;
+    top: 1.1rem;
+    right: 8.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    border: 1px solid red;  
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;  
+  }
