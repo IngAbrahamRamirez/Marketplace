@@ -77,10 +77,10 @@ h2{
     background-color: blue
   }
   
-  .product-item .Botones .btn2{
+  .product-item .Botones .link .btn2{
     color:white;
     background-color: rgba(102, 51, 153, 0.705);
-    display: grid;
+    display: flex;
     align-items: center;
     text-align: center;
     margin-left: 1rem;

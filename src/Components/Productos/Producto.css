@@ -73,4 +73,19 @@ h1{
   .product-itemP .BotonesP .btn1P:hover{
     background-color: blue
   }
+  .product-item .Botones .btn2{
+    color:white;
+    background-color: rgba(102, 51, 153, 0.705);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    width: 100%;
+  }
+  .product-item .Botones .btn2:hover{
+    background-color: blue
+  }
   
